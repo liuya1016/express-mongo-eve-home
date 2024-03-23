@@ -1,6 +1,6 @@
 const monk = require('monk');
 
-const dbUrl = process.env.DB_URL;
+const dbUrl = 'mongodb://Liuya:Liuya@isit.my.to:27017/?authSource=LiuyaDB';
 
 // console.log(process.env.NODE_ENV);
 
